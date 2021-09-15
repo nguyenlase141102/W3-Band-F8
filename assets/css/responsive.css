@@ -1,0 +1,111 @@
+/* Responsive */
+.css-icon {
+  color: #fff;
+  padding: 12px 24px;
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .modal-container {
+    width: 500px;
+  }
+
+  .section-desc {
+    margin: 0px 16px;
+  }
+
+  .tour-ticket {
+    margin: 0px 16px;
+  }
+
+  .tour-place-item {
+    margin: 0px 16px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 739px) {
+  #nav > li {
+    display: block;
+    width: 100%;
+  }
+
+  /* Heade mobile*/
+  #header {
+    overflow: hidden;
+  }
+
+  .icon-search {
+    display: none;
+  }
+
+  #header .icon-bar:hover {
+    height: 46px;
+  }
+
+  /* Slider image   */
+
+  .slider-content {
+    display: none;
+  }
+
+  /* content band   */
+
+  #content {
+    width: 100%;
+  }
+
+  .content-section {
+    padding: 64px 10px;
+    width: 100%;
+  }
+
+  .member-lists {
+    display: block;
+  }
+  .member-items {
+    height: 298px;
+    width: 100%;
+  }
+
+  .member-image {
+    width: 229px;
+    height: 229px;
+  }
+
+  .tour-section {
+    height: 1900px;
+  }
+
+  .tour-places {
+    display: block;
+  }
+
+  .tour-place-item {
+    height: 490px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .tour-places .tour-place-item .tour_image {
+    height: 289px;
+  }
+
+  /* contact */
+  .s-col-full {
+    width: 100%;
+  }
+  #contact {
+    height: 594px;
+  }
+
+  .contact-message {
+    margin-top: 20px;
+    padding: 0px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .icon-bar {
+    display: none;
+  }
+}
